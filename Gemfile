@@ -36,6 +36,7 @@ end
 gem 'bcrypt', '~> 3.1.7'
 
 gem 'pry'
+gem 'rename'
 # Use unicorn as the app server
 # gem 'unicorn'
 

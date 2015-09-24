@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Ribbit::Application.load_tasks
+RibbitApp::Application.load_tasks
