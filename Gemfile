@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.1.5'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 
@@ -37,6 +39,8 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'pry'
 gem 'rename'
+gem ruby -v
+'rails_12factor'
 # Use unicorn as the app server
 # gem 'unicorn'
 
