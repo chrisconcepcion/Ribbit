@@ -18,12 +18,13 @@
         <%= submit_tag "Log In" %>
     <% end %>
 <% end %>
+					<%= link_to "Buddies' Ribbits", buddies_path %>
         </div>
     </header>
     <div id="content">
         <div class="wrapper">
             <% flash.each do |name, msg| %>
-                <%= content_tag :div, msg, class: "flash #{name}" %>
+                <%= contents_tag :div, msg, class: "flash #{name}" %>
             <% end %>
             <%= yield %>
         </div>

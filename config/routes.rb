@@ -6,6 +6,7 @@ RibbitApp::Application.routes.draw do
 	get "sessions/destroy"
 	resources :ribbits
 	resources :relationships
+	get 'buddies', to: 'users#buddies', as: 'buddies'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
