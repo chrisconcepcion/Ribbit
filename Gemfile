@@ -34,6 +34,9 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :development do
+	gem 'sqlite3'
+end
 
 gem 'bcrypt', '~> 3.1.7'
 
